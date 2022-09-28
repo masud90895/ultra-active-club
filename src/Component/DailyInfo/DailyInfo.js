@@ -3,6 +3,8 @@ import img from '../../img/mypic3.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot} from '@fortawesome/free-solid-svg-icons'
 import MyInformation from '../MyInformation/MyInformation';
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
 const DailyInfo = ({times,setTimes}) => {
     const breakTime=['10','20','30','40']
@@ -20,6 +22,10 @@ const DailyInfo = ({times,setTimes}) => {
             setSumBreak(getLocalData)
         }
     },[])
+
+    const notify = () => toast("Wow Activity Completed!");
+
+
     return (
         <div className='shadow-md px-3 mt-10'>
                 <div className='flex lg:justify-start justify-center'>
@@ -65,8 +71,9 @@ const DailyInfo = ({times,setTimes}) => {
 
 
                 </div>
-                <div className='mx-auto '>
-                <button className='btn btn-outline text-[#0080ff] hover:bg-[#0080ff] hover:border-none w-[90%]   rounded-lg mt-10'>Activity Completed</button>
+                <div className='mx-auto mb-6'>
+                <button onClick={notify} className='btn btn-outline text-[#0080ff] hover:bg-[#0080ff] hover:border-none w-[90%]   rounded-lg mt-10'>Activity Completed</button>
+                <ToastContainer />
                 </div>
                 
         </div>
