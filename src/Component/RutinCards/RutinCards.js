@@ -8,11 +8,10 @@ const RutinCards = ({routine}) => {
             <div className="card card-compact w-full bg-base-100 shadow-xl">
                 <figure ><img className='h-[200px] w-full' src={img} alt="" /></figure>
                 <div className="card-body">
-                    <h2 className="card-title">Shoes!</h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
-                    <div className="card-actions justify-end">
-                    <button className="btn btn-primary">Buy Now</button>
-                    </div>
+                    <h2 className="card-title">{name}</h2>
+                    <p>{ditailes.length > 200 ? ditailes.slice(0,200) + "..." :ditailes}</p>
+                    <p className='mt-2 text-xl'>Time required : {time}Minute</p>                   
+                    <button className="btn bg-[#0080ff] border-none">Add to list</button>
                 </div>
                 </div>
         </div>
