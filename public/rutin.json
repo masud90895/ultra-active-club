@@ -1,81 +1,45 @@
 [
   {
-    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
-    "category": "Men's Sneaker",
-    "name": "ULTRABOOST 22 SHOES",
-    "seller": "Addidas",
-    "price": 420,
-    "stock": 20,
-    "ratings": 4,
-    "ratingsCount": 3725,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
-    "shipping": 1,
-    "quantity": 0
+    "id": "1",
+    "name": "Morning Workout",
+    "ditailes": "There are plenty of benefits to an Early Morning Workout. The first one is: you’ll get it out of your check-list and no one will take that ‘own time’ away from you. It will also be a way to kick-start your day, enhancing your metabolism, improving your energy levels and realizing the endorphins that will set the happy mood that will last for the rest of the day.",
+    "time": "120",
+    "img": "https://images.unsplash.com/photo-1602520628350-fbf9db1f02ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
   },
   {
-    "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
-    "category": "Men's Sneaker",
-    "name": "LUNAR NEW YEAR ULTRABOOST DNA SHOES",
-    "seller": "Addidas",
-    "price": 196,
-    "stock": 19,
-    "ratings": 5,
-    "ratingsCount": 4355,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2cee64414e1f4f31baf1ae270099d950_9366/Lunar_New_Year_Ultraboost_DNA_Shoes_Black_GZ6074_01_standard.jpg",
-    "shipping": 14,
-    "quantity": 0
+    "id": "2",
+    "name": "Stay in University",
+    "ditailes": "For hundreds of years, the university has been a place of learning, producing greats such as Socrates and Plato. The key to understanding the world is having the right education that comes from universities. Unfortunately, there are students at my university who don’t seem to care about their education at all.",
+    "time": "150",
+    "img": "https://images.unsplash.com/photo-1607013407627-6ee814329547?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=664&q=80"
   },
   {
-    "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
-    "category": "Men's Sneaker",
-    "name": "SUPERNOVA SHOES",
-    "seller": "Addidas",
-    "price": 245,
-    "stock": 20,
-    "ratings": 4,
-    "ratingsCount": 3972,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/69cbc73d0cb846889f89acbb011e68cb_9366/Supernova_Shoes_Black_S42722_01_standard.jpg",
-    "shipping": 1,
-    "quantity": 0
+    "id": "3",
+    "name": "Time spend with family",
+    "ditailes": "There’s a popular saying that says nothing is more important than family. It’s the most important aspect of many people’s lives and the foundation of human civilization. Despite its importance, we often don’t spend enough time with our families as we should, so using these family time quotes can help remind you to prioritize your quality time with the people closest to you.",
+    "time": "180",
+    "img": "https://images.unsplash.com/photo-1542037104857-ffbb0b9155fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=754&q=80"
   },
   {
-    "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
-    "category": "Men's Sneaker",
-    "name": "LITE RACER ADAPT 3.0 SHOES",
-    "seller": "Addidas",
-    "price": 229,
-    "stock": 10,
-    "ratings": 5,
-    "ratingsCount": 1764,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/96a5f085fedf4e678095abad01056711_9366/Lite_Racer_Adapt_3.0_Shoes_Black_FX8802_01_standard.jpg",
-    "shipping": 32,
-    "quantity": 0
+    "id": "4",
+    "name": "Sport's Time",
+    "ditailes": "Sporting activities require a lot of physical activity. It involves running and lifting. During sports, the body is continuously engaged. Games may require the individual to carry physical activities or can be done by staying indoors.",
+    "time": "120",
+    "img": "https://images.unsplash.com/photo-1631194758628-71ec7c35137e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"
   },
   {
-    "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
-    "category": "Men's Sneaker",
-    "name": "4DFWD SHOES",
-    "seller": "Addidas",
-    "price": 287,
-    "stock": 11,
-    "ratings": 4,
-    "ratingsCount": 799,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8c5d1994dfd343e28567ad4400dd351d_9366/4DFWD_Shoes_Black_Q46447_01_standard.jpg",
-    "shipping": 49,
-    "quantity": 0
+    "id": "5",
+    "name": "Web Development",
+    "ditailes": "Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network).[1] Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.",
+    "time": "200",
+    "img": "https://images.unsplash.com/photo-1583508915901-b5f84c1dcde1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
   },
   {
-    "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
-    "category": "Men's Sneaker",
-    "name": "KAPTIR 2.0 SHOES",
-    "seller": "Addidas",
-    "price": 138,
-    "stock": 19,
-    "ratings": 3,
-    "ratingsCount": 4372,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0846e90b15144861b33dacf500e3cfd1_9366/Kaptir_2.0_Shoes_White_H00276_01_standard.jpg",
-    "shipping": 19,
-    "quantity": 0
+    "id": "6",
+    "name": "Reading Books",
+    "ditailes": "Reading is a very good habit that one needs to develop in life. Good books can inform you, enlighten you and lead you in the right direction. There is no better companion than a good book. Reading is important because it is good for your overall well-being.",
+    "time": "150",
+    "img": "https://images.unsplash.com/photo-1571193161738-deaba9b6cc26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=445&q=80"
   }
   
 ]
