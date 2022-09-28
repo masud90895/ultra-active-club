@@ -10,10 +10,10 @@ const RutinContainer = ({times,setTimes,handleGetTimes}) => {
         .then(data=>setRoutin(data))
     },[])
     return (
-        <div className='md:mt-16 md:px-20 px-5 '>
+        <div className='mt-5 md:mt-16 md:px-20 px-5 '>
             <div className='flex items-center '>
             <img className='rounded-lg' src="https://img.freepik.com/free-vector/smiling-man-with-daily-routines-icons-flat-style_24908-58938.jpg?w=50" alt="" />
-            <h1 className='ml-3 text-4xl font-bold text-[#0080ff]'>My Daily Routine </h1>
+            <h1 className='ml-3 text-3xl md:text-4xl font-bold text-[#0080ff]'>My Daily Routine </h1>
         </div>
         <div>
             <h1 className='mt-12 text-2xl font-bold'>

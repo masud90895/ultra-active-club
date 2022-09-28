@@ -1,19 +1,11 @@
-.App {
+.rutin {
  display: grid;
  grid-template-columns: 3fr 1fr;
 }
 /*phone*/
 @media only screen and (max-width: 688px) {
-    .App{
+    .rutin{
         display: flex; 
         flex-direction: column;     
     }
-}
-/* Tab */
-    @media only screen and (min-width:689px) and (max-width:992px){
-       
-
-}
-/* leptop */
-    @media only screen and (min-width:993px) and (max-width:1312px){
 }

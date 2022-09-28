@@ -6,7 +6,7 @@ import MyInformation from '../MyInformation/MyInformation';
 import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
 
-const DailyInfo = ({times,setTimes}) => {
+const DailyInfo = ({times}) => {
     const breakTime=['10','20','30','40']
 
     const [sumBreak,setSumBreak] =useState(0)
@@ -28,7 +28,7 @@ const DailyInfo = ({times,setTimes}) => {
 
     return (
         <div className='shadow-md px-3 mt-10'>
-                <div className='flex lg:justify-start justify-center'>
+                <div className='flex lg:justify-start justify-center w-[217px] mx-auto'>
                     <div>
                     <img className='w-14 h-14 rounded-full' src={img} alt="" />
                     </div>
@@ -42,7 +42,7 @@ const DailyInfo = ({times,setTimes}) => {
 
                 {/* Add A Break section start  */}
 
-                <div className='mt-4 bg-gray-200 shadow-lg py-3 px-5'>
+                <div className='mt-4 bg-gray-200 shadow-lg py-3 px-5 rounded-lg'>
                     <h1 className='text-xl font-bold'>Add A Break</h1>
                     <div className='mt-4 flex justify-around'>
                         {breakTime.map((oneBreak) => <button key={oneBreak} onClick={()=>breakTimes(oneBreak)} className='btn btn-outline text-[#0080ff] hover:bg-[#0080ff] hover:border-none  w-12 h-10 rounded-full'>{oneBreak}M</button>)
@@ -71,7 +71,7 @@ const DailyInfo = ({times,setTimes}) => {
 
 
                 </div>
-                <div className='mx-auto mb-6'>
+                <div className='mx-auto mb-6 ml-5'>
                 <button onClick={notify} className='btn btn-outline text-[#0080ff] hover:bg-[#0080ff] hover:border-none w-[90%]   rounded-lg mt-10'>Activity Completed</button>
                 <ToastContainer />
                 </div>

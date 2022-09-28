@@ -3,6 +3,7 @@ import './App.css';
 import RutinContainer from './Component/RutinContainer/RutinContainer';
 import DailyInfo from './Component/DailyInfo/DailyInfo';
 import { useEffect, useState } from 'react';
+import Blog from './Component/Blog/Blog';
 
 function App() {
   const [times,setTimes] = useState(0)
@@ -22,8 +23,11 @@ function App() {
 
   return (
     <div className="App bg-[#F2F4FA]">
+      <div className='rutin'>
       <RutinContainer time={times} setTimes={setTimes} handleGetTimes={handleGetTimes} />
       <DailyInfo times={times} setTimes={setTimes} />
+      </div>
+      <Blog/>
     </div>
   );
 }
