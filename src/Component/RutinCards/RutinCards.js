@@ -10,7 +10,7 @@ const RutinCards = ({routine,handleGetTimes}) => {
                 <div className="card-body">
                     <h2 className="card-title">{name}</h2>
                     <p>{ditailes.length > 200 ? ditailes.slice(0,200) + "..." :ditailes}</p>
-                    <p className='mt-2 text-xl'>Time required : {time}Minute</p>                   
+                    <p className='mt-2 text-xl'>Time required : {time} Minute</p>                   
                     <button onClick={()=>handleGetTimes(time)} className="btn bg-[#0080ff] border-none">Add to list</button>
                 </div>
                 </div>

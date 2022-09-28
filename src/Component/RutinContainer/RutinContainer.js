@@ -17,7 +17,7 @@ const RutinContainer = ({times,setTimes,handleGetTimes}) => {
         </div>
         <div>
             <h1 className='mt-12 text-2xl font-bold'>
-            Select today’s Routine
+            Select today’s <span className='text-[#0080ff]'>Routine</span>
             </h1>
         </div>
         <div className='mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>

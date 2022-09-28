@@ -6,8 +6,8 @@ import { faCircleChevronRight,faArrowRight } from '@fortawesome/free-solid-svg-i
 const Blog = () => {
     return (
         <div className='mt-20 lg:px-20 px-5 mb-10'>
-            <div className='text-center mb-5'>
-                <h1 className='text-4xl font-bold text-[#0080ff]'>Welcome Blog Section</h1>
+            <div className='text-center mb-5 '>
+                <h1 className='text-4xl font-bold underline underline-offset-8 text-[#0080ff]'>Welcome To Blog Section</h1>
             </div>
             
             <div tabIndex={0} className="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
