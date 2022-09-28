@@ -5,7 +5,7 @@ import DailyInfo from './Component/DailyInfo/DailyInfo';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-[#F2F4FA]">
       <RutinContainer/>
       <DailyInfo/>
     </div>

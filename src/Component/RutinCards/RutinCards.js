@@ -2,7 +2,6 @@ import React from 'react';
 
 const RutinCards = ({routine}) => {
     const {id,name,ditailes,time,img} =routine;
-    console.log(routine)
     return (
         <div className=''>
             <div className="card card-compact w-full bg-base-100 shadow-xl">
