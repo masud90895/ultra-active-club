@@ -39,10 +39,6 @@ const DailyInfo = ({times,setTimes}) => {
                 <div className='mt-4 bg-gray-200 shadow-lg py-3 px-5'>
                     <h1 className='text-xl font-bold'>Add A Break</h1>
                     <div className='mt-4 flex justify-around'>
-                    {/* <button className='btn btn-outline text-[#0080ff] hover:bg-[#0080ff] hover:border-none  w-12 h-10 rounded-full'>10M</button>
-                    <button className='btn btn-outline text-[#0080ff] hover:bg-[#0080ff] hover:border-none  w-12 h-10 rounded-full'>20M</button>
-                    <button className='btn btn-outline text-[#0080ff] hover:bg-[#0080ff] hover:border-none  w-12 h-10 rounded-full'>30M</button>
-                    <button className='btn btn-outline text-[#0080ff] hover:bg-[#0080ff] hover:border-none  w-12 h-10 rounded-full'>40M</button> */}
                         {breakTime.map((oneBreak) => <button key={oneBreak} onClick={()=>breakTimes(oneBreak)} className='btn btn-outline text-[#0080ff] hover:bg-[#0080ff] hover:border-none  w-12 h-10 rounded-full'>{oneBreak}M</button>)
                               
                               
@@ -58,8 +54,8 @@ const DailyInfo = ({times,setTimes}) => {
                 
                 <div>
                     <div className='bg-gray-200 shadow-lg py-5 px-5 rounded-lg mt-3 flex justify-between items-center'>
-                        <h1 className='text-xl font-bold'>Exercise time</h1>
-                        <h3 className='text-gray-500'>{} Minute</h3>
+                        <h1 className='text-xl font-bold'>Spent time</h1>
+                        <h3 className='text-gray-500'>{times} Minute</h3>
                     </div>
                     <div className='bg-gray-200 shadow-lg py-5 px-5 rounded-lg mt-3 flex justify-between items-center'>
                         <h1 className='text-xl font-bold'>Break time</h1>
