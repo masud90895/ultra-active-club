@@ -7,7 +7,7 @@ import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
 
 const DailyInfo = ({times}) => {
-    const breakTime=['10','20','30','40']
+    const breakTime=['10','20','30','40','50']
 
     const [sumBreak,setSumBreak] =useState(0)
 
