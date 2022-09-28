@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import RutinCards from '../RutinCards/RutinCards';
 
-const RutinContainer = () => {
+const RutinContainer = ({times,setTimes}) => {
     const [routines,setRoutin] =useState([])
 
     useEffect(()=>{
@@ -22,7 +22,7 @@ const RutinContainer = () => {
         </div>
         <div className='mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
             {
-                routines.map(routine=> <RutinCards key={routine.id} routine={routine} ></RutinCards>)
+                routines.map(routine=> <RutinCards key={routine.id} routine={routine} setTimes={setTimes} time={times} ></RutinCards>)
             }
         </div>
         </div>
